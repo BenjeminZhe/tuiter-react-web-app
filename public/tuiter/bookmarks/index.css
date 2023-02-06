@@ -1,0 +1,105 @@
+.wd-container {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    margin-left: 16px;
+    max-width: 598px;
+}
+
+.wd-title {
+    font-size: 20px;
+}
+
+.wd-username {
+    font-size: 13px;
+    color: lightgray;
+}
+
+.wd-main-body {
+    display: flex;
+    max-width: 506px;
+}
+
+wd-author {
+    font-size: 15px;
+}
+
+.wd-author-username {
+    color: lightgray;
+}
+
+.wd-post {
+    margin-left: 12px;
+}
+
+.wd-footage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wd-header {
+    padding-top: 12px;
+}
+
+.wd-content {
+    padding-top: 12px;
+}
+
+.wd-post-image {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.wd-paragraph {
+    margin-bottom: 12px;
+}
+
+.wd-image {
+    height: 264px;
+    width: 504px;
+}
+
+.wd-image img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.wd-paragraph {
+    font-size: 15px;
+}
+
+.wd-image-district {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.wd-image-content {
+    padding: 12px;
+}
+
+.wd-image-para {
+    color: lightgrey;
+}
+
+.wd-icon {
+    margin-right: 12px;
+}
+
+.wd-footage {
+    padding: 12px;
+}
+
+.wd-footage a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.wd-footage .wd-selected-icon {
+    color: red;
+}

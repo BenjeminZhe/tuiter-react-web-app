@@ -1,0 +1,17 @@
+body{
+    font-family: "Apple Braille", system-ui;
+    background-color: black;
+    color: white;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-done {
+    clear: both;
+}
