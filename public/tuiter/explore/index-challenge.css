@@ -1,0 +1,58 @@
+.wd-small {
+    font-size: 0.5em;
+}
+
+.wd-left-column .list-group-item {
+    border-style: none;
+    color: rgb(80,80,80);
+}
+
+.wd-left-column a > i {
+    width: 30px;
+}
+
+.wd-left-column a > span {
+    width: 30px;
+}
+
+.wd-left-column .fa-twitter {
+    color: rgb(0, 173, 238);
+}
+
+.wd-nav a {
+    color:grey;
+}
+
+.wd-nav .active {
+    color: black;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 2px;
+}
+
+.wd-content .list-group-item {
+    border-style: none;
+    color: rgb(80,80,80);
+}
+
+.wd-main-body {
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.wd-right-column .list-group-item {
+    border-style: none;
+}
+
+.wd-right-column button {
+    border-style: none;
+}
+
+@media (min-width: 992px)
+and (max-width: 1200px) {
+    .wd-tweet-button {
+        width: 120% !important;
+    }
+}
