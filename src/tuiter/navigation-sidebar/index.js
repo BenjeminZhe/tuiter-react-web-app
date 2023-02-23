@@ -24,7 +24,7 @@ const NavigationSidebar = () => {
       <Link to="/" className="list-group-item">
         <span className={"d-none d-xl-inline"}>Labs</span>
       </Link>
-      <a href="" className="list-group-item"><FontAwesomeIcon icon={faTwitter} className="pe-1"/></a>
+      <Link to="/tuiter/home" className="list-group-item"><FontAwesomeIcon icon={faTwitter} className="pe-1"/></Link>
       <Link to="/tuiter/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
         <FontAwesomeIcon icon={faHome} className="pe-1"/>
@@ -68,7 +68,7 @@ const NavigationSidebar = () => {
         </span>
         <span className={"d-none d-xl-inline"}>More</span>
       </Link>
-      <a role="button" width={120} href="" className="btn btn-primary rounded-pill wd-tweet-button mt-2 w-100">Tweet</a>
+      <button role="button" width={120} className="btn btn-primary rounded-pill wd-tweet-button mt-2 w-100">Tweet</button>
     </div>
   );
 };

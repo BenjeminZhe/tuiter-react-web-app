@@ -50,13 +50,13 @@ const PostItem = (
                 </div>
             </div>
             <div className="row justify-content-around ms-3">
-                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faComment}/>
+                <a href="/#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faComment}/>
                     <span>{post.replyCount}</span></a>
-                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faRetweet} />
+                <a href="/#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faRetweet} />
                     <span>{post.retweetCount}</span></a>
-                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faHeart} />
+                <a href="/#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faHeart} />
                     <span>{post.likeCount}</span></a>
-                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faArrowUpFromBracket} /></a>
+                <a href="/#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faArrowUpFromBracket} /></a>
             </div>
        </li>);
 };
