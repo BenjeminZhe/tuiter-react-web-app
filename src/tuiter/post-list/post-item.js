@@ -40,7 +40,7 @@ const PostItem = (
                         {post.content}
                     </div>
                     <div className = "border border-light border-2 rounded-4">
-                        <img src={`/images/${post.postImage}`} className="border border-light border-2 w-100 rounded-4"/>
+                        <img src={`/images/${post.postImage}`} className="border border-light border-2 w-100 rounded-4" alt={""}/>
                         <div className={"px-3 py-3"}>
                           <div className="text-secondary">{post.postTitle}</div>
                           <div>{post.postContent}</div>
