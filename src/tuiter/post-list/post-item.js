@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faCheckCircle, faComment, faRetweet, faHeart, faArrowUpFromBracket, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle, faComment, faRetweet, faHeart, faArrowUpFromBracket, faLink, faEllipsisH} from '@fortawesome/free-solid-svg-icons';
 
 const PostItem = (
   {
@@ -29,18 +29,18 @@ const PostItem = (
                     <div className="row">
                         <div className="col-11 align-items-center">
                             {post.userName}
-                            <span><FontAwesomeIcon icon={faCheckCircle} /></span>
+                            <span className={"px-1"}><FontAwesomeIcon icon={faCheckCircle} /></span>
                             <span className="text-secondary">@{post.userAlias} &#183 {post.time}</span>
                         </div>
                         <div className="col-1">
-                            <i className="fas fa-ellipsis-h text-secondary float-end"></i>
+                          <FontAwesomeIcon icon={faEllipsisH} className={"text-secondary float-end"}/>
                         </div>
                     </div>
                     <div className="pb-2">
                         {post.content}
                     </div>
                     <div className = "border border-light border-2 rounded-4">
-                        <img src={`/images/${post.postImage}`} className="border border-light border-2 w-100 rounded-4" alt="Post Image"/>
+                        <img src={`/images/${post.postImage}`} className="border border-light border-2 w-100 rounded-4"/>
                         <div className={"px-3 py-3"}>
                           <div className="text-secondary">{post.postTitle}</div>
                           <div>{post.postContent}</div>
@@ -50,13 +50,13 @@ const PostItem = (
                 </div>
             </div>
             <div className="row justify-content-around ms-3">
-                <a href="#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faComment}/>
+                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faComment}/>
                     <span>{post.replyCount}</span></a>
-                <a href="#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faRetweet} />
+                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faRetweet} />
                     <span>{post.retweetCount}</span></a>
-                <a href="#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faHeart} />
+                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faHeart} />
                     <span>{post.likeCount}</span></a>
-                <a href="#" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faArrowUpFromBracket} /></a>
+                <a href="" className="col text-secondary text-decoration-none"><FontAwesomeIcon icon={faArrowUpFromBracket} /></a>
             </div>
        </li>);
 };
