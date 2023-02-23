@@ -68,7 +68,7 @@ const NavigationSidebar = () => {
         </span>
         <span className={"d-none d-xl-inline"}>More</span>
       </Link>
-      <button role="button" width={120} className="btn btn-primary rounded-pill wd-tweet-button mt-2 w-100">Tweet</button>
+      <button width={120} className="btn btn-primary rounded-pill wd-tweet-button mt-2 w-100">Tweet</button>
     </div>
   );
 };
