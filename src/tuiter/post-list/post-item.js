@@ -30,7 +30,7 @@ const PostItem = (
                         <div className="col-11 align-items-center">
                             {post.userName}
                             <span className={"px-1"}><FontAwesomeIcon icon={faCheckCircle} /></span>
-                            <span className="text-secondary">@{post.userAlias} &#183 {post.time}</span>
+                            <span className="text-secondary">@{post.userAlias} {'\u00B7'} {post.time}</span>
                         </div>
                         <div className="col-1">
                           <FontAwesomeIcon icon={faEllipsisH} className={"text-secondary float-end"}/>

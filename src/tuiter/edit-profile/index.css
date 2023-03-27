@@ -1,0 +1,18 @@
+.dark-image {
+    filter: brightness(50%);
+}
+
+.icon-camera {
+    top : -100px;
+    left : 45%;
+}
+
+.avatar {
+    top: -50px;
+    left: 20px;
+}
+
+.icon-camera-2 {
+    top : -50px;
+    left : -55px;
+}

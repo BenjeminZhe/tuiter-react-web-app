@@ -36,26 +36,26 @@ const NavigationSidebar = () => {
         <span className={"d-none d-xl-inline"}>Explore</span>
       </Link>
       <Link to="/tuiter/notification" className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}>
+                    ${active === 'notification'?'active':''}`}>
         <FontAwesomeIcon icon={faBell} className="pe-1"/>
         <span className={"d-none d-xl-inline"}>Notifications</span>
       </Link>
       <Link to="/tuiter/message" className={`list-group-item
-                    ${active === 'messages'?'active':''}`}>
+                    ${active === 'message'?'active':''}`}>
         <FontAwesomeIcon icon={faEnvelope} className="pe-1"/>
         <span className={"d-none d-xl-inline"}>Messages</span>
       </Link>
       <Link to="/tuiter/bookmark" className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}>
+                    ${active === 'bookmark'?'active':''}`}>
         <FontAwesomeIcon icon={faBookmark} className="pe-1"/>
         <span className={"d-none d-xl-inline"}>Bookmarks</span>
       </Link>
       <Link to="/tuiter/list" className={`list-group-item
-                    ${active === 'lists'?'active':''}`}>
+                    ${active === 'list'?'active':''}`}>
         <FontAwesomeIcon icon={faList} className="pe-1"/>
         <span className={"d-none d-xl-inline"}>Lists</span>
       </Link>
-      <Link to="/tuiter/user" className={`list-group-item
+      <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
         <FontAwesomeIcon icon={faUser} className="pe-1"/>
         <span className={"d-none d-xl-inline"}>Profile</span>
